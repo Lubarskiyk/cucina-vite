@@ -29,10 +29,4 @@
   --button-background: rgba(188, 26, 26, 0.2);
 
   --img-shadow: 0 0 50px 0 #7c7070;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
