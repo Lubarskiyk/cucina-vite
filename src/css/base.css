@@ -2,6 +2,8 @@ body {
   font-family: var(--font-family);
   font-size: 16px;
   color: var(--body-color);
+  background-color: var(--blac);
+  padding-top: 60px;
 }
 
 .container {
@@ -9,6 +11,12 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+.title1 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 123%;
 }
 .social-icon {
   fill: var(--body-color);

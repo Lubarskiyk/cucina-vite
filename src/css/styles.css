@@ -2,6 +2,8 @@
 @import url('./base.css');
 @import url('./header.css');
 @import url('./footer.css');
+@import url('./hero.css');
+@import url('./bay.css');
 
 :root {
   --font-family: 'Montserrat', sans-serif;
@@ -9,15 +11,18 @@
 
   --blac: #100f0f;
   --white: #fff;
+  --red-text: #bc1a1a;
   --body-color: #f3f3f3;
   --privacy-color: #979797;
 
-  --heade-background: linear-gradient(
+  --heade-background: linear-gradient(235deg, #6f6666 0%, #100f0f 100%);
+
+  /* linear-gradient(
     298deg,
     rgba(111, 102, 102, 0.9) 0%,
     rgba(16, 15, 15, 0.9) 100%,
     rgba(16, 15, 15, 0.9) 100%
-  );
+  ); */
   --hero-background: linear-gradient(
     200deg,
     rgba(111, 102, 102, 0.9) 0%,
@@ -30,3 +35,5 @@
 
   --img-shadow: 0 0 50px 0 #7c7070;
 }
+
+/* background: linear-gradient(235deg, #6f6666 0%, #100f0f 100%); */
