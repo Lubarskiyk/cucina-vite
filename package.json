@@ -16,6 +16,7 @@
   "author": "Konstantin Lubarskiy <lubarskiy.k@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "swiper": "^11.1.0",
     "vite-plugin-full-reload": "^1.1.0",
     "vite-plugin-html-inject": "^1.1.1"
   }

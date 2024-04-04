@@ -8,13 +8,11 @@
 :root {
   --font-family: 'Montserrat', sans-serif;
   --second-family: 'Inter', sans-serif;
-
   --blac: #100f0f;
   --white: #fff;
   --red-text: #bc1a1a;
   --body-color: #f3f3f3;
   --privacy-color: #979797;
-
   --heade-background: linear-gradient(235deg, #6f6666 0%, #100f0f 100%);
 
   /* linear-gradient(

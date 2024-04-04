@@ -12,3 +12,23 @@
     }
   }
 })();
+
+import Swiper from 'swiper';
+import { Navigation } from 'swiper/modules';
+import 'swiper/css/navigation';
+
+const swiper = new Swiper('.swiper', {
+  modules: [Navigation],
+
+  direction: 'vertical',
+  slidesPerView: 2,
+  slidesPerGroup: 1,
+  watchSlidesProgress: true,
+  slideVisibleClass: 'my-class-visible',
+  spaceBetween: 40,
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
