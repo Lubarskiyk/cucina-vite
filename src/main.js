@@ -15,7 +15,6 @@
 
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
-import 'swiper/css/navigation';
 
 const swiper = new Swiper('.swiper', {
   modules: [Navigation],
@@ -28,7 +27,8 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 40,
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    disabledClass: 'bay-button-disabled',
+    nextEl: '.bay-button-next',
+    prevEl: '.bay-button-prev',
   },
 });
